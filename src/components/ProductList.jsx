@@ -1,6 +1,7 @@
 import useFetchProducts from '../hooks/useFetchProducts';
 import ProductItem from './ProductItem';
 import { useState } from 'react';
+import Loader from './Loader';
 import './ProductList.css';
 
 export default function ProductList() {
@@ -21,7 +22,7 @@ export default function ProductList() {
         onChange={e => setSearchText(e.target.value)}
       />
 
-      {loading && <p>Loading...</p>}
+      {loading && <Loader/>}
       {error && <p>{error}</p>}
 
       <div className="product-grid">

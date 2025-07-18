@@ -1,6 +1,6 @@
 import './Loader.css';
 
-export default function Loader() {
+ function Loader() {
   return (
     <div className="loader-container">
       <div className="loader"></div>
@@ -8,3 +8,5 @@ export default function Loader() {
     </div>
   );
 }
+
+export default Loader;
