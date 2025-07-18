@@ -1,0 +1,14 @@
+.cart {
+  padding: 2rem;
+  border: 2px solid rgb(250, 248, 248);
+}
+
+.cart h2 {
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.cart h3 {
+  margin-top: 1.5rem;
+  color: #2ecc71;
+}
