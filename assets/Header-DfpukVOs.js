@@ -1,0 +1,1 @@
+import{j as e,L as s}from"./index-B5Vq6xdh.js";function r(){return e.jsxs("header",{className:"main-header",children:[e.jsxs("div",{className:"left-links",children:[e.jsx(s,{to:"/",children:"Home"}),e.jsx(s,{to:"/cart",children:"Cart 🛒"})]}),e.jsx("div",{className:"logo",children:"🛍️ ShoppyGlobe"})]})}export{r as default};

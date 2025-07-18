@@ -1,0 +1,1 @@
+import{j as e}from"./index-B5Vq6xdh.js";function n(){return e.jsxs("div",{style:{padding:"2rem",textAlign:"center"},children:[e.jsx("h1",{children:"404"}),e.jsx("p",{children:"Page Not Found"})]})}export{n as default};
