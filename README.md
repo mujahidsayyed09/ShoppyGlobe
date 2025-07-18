@@ -31,19 +31,6 @@
 
 ---
 
-## 📁 Folder Structure
-
-shoppyglobe/
-├── public/
-│ └── 404.html
-├── src/
-│ ├── components/
-│ ├── redux/
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── App.css
-├── vite.config.js
-└── package.json
 
 yaml
 Copy
@@ -101,10 +88,8 @@ export default defineConfig({
   base: '/ShoppyGlobe/',
   plugins: [react()],
 })
-4.
-npm run deploy
+4.npm run deploy
 Your app will be live at:
-
 bash
 Copy
 Edit
