@@ -1,8 +1,8 @@
 import useFetchProducts from '../hooks/useFetchProducts';
 import ProductItem from './ProductItem';
 import { useState } from 'react';
-import Loader from './Loader';
 import './ProductList.css';
+import Loader from './Loader';
 
 export default function ProductList() {
   const { products, loading, error } = useFetchProducts("https://dummyjson.com/products");
